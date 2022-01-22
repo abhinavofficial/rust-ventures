@@ -10,3 +10,10 @@ Solution: I would call learning from each of these materials a separate project 
 
 ## One single collection of random but interesting reads
 Sometimes I come across very interesting reads but we do not capture the knowledge anywhere. Would like to dedicate a branch for that purpose.
+
+https://learning-rust.github.io/
+https://jekyllrb.com/
+https://www.youtube.com/watch?v=T78rCJ_i1no&t=44s
+https://rafalab.github.io/
+https://www.coursera.org/learn/compthinking/home/welcome
+https://www.youtube.com/watch?v=lO1z-7cuRYI
