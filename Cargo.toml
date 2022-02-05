@@ -3,5 +3,6 @@ members = [
     "zero2prod",
     "rust_the_book",
     "first_serversetup",
-    "microsoft_learning/hello_world"
+    "microsoft_learning/hello_world",
+    "async_learning"
 ]
