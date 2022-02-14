@@ -3,5 +3,8 @@ name = "zero2prod"
 version = "0.0.1"
 authors = ["apache.abhinav.official@outlook.com"]
 license = "Apache-2.0"
+edition = "2021"
 
-[dependecies]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]

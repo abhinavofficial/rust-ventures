@@ -12,7 +12,8 @@ struct Person {
 struct Student {
     name: String,
 }
-
+// `#[allow(dead_code)]` is an attribute that disables the `dead_code` lint
+#[allow(dead_code)]
 enum WebEvents {
     PageLoad,
     PageUnload,
@@ -20,7 +21,8 @@ enum WebEvents {
     Paste(String),
     Click {x: i64, y:i64},
 }
-
+// `#[allow(dead_code)]` is an attribute that disables the `dead_code` lint
+#[allow(dead_code)]
 enum Option<T> {
     Some(T),
     None,
@@ -67,7 +69,8 @@ pub fn first_line(string: &str) -> &str {
 fn add_to_vec(a_vec: &mut Vec<i32>){
     a_vec.push(4);
 }
-
+// `#[allow(dead_code)]` is an attribute that disables the `dead_code` lint
+#[allow(dead_code)]
 fn print_out(to_print: String){
     println!("{}", to_print);
 }
@@ -90,7 +93,8 @@ fn learn_class_struct() -> Person {
 fn learn_tuple_struct() -> Point2D {
     Point2D(100, 200)
 }
-
+// `#[allow(dead_code)]` is an attribute that disables the `dead_code` lint
+#[allow(dead_code)]
 fn learn_enum() {
     let _quit = WebEvents::KeyPress('q');
 

@@ -1,7 +1,0 @@
-[package]
-name = "async_learning"
-version = "0.0.1"
-authors = ["apache.abhinav.official@outlook.com"]
-license = "Apache-2.0"
-
-[dependecies]

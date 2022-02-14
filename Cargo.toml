@@ -1,8 +1,14 @@
 [workspace]
 members = [
     "zero2prod",
-    "rust_the_book",
-    "first_serversetup",
+    "chapter-10",
+    "chapter-13",
+    "chapter-15",
+    "chapter-16",
+    "chapter-17",
+    "chapter-18",
+    "chapter-19",
+    "chapter-20",
     "microsoft_learning/hello_world",
-    "async_learning"
+    "my-redis"
 ]

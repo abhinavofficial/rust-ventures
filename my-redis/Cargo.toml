@@ -1,0 +1,13 @@
+[package]
+name = "my-redis"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# Tokio has a lot of functionality (TCP, UDP, Unix sockets, timers, sync utilities, multiple scheduler types, etc).
+# Not all applications need all functionality. When attempting to optimize compile time or the end application footprint,
+# the application can decide to opt into only the features it uses.
+tokio = { version = "1.16.1", features = ["full"] }
+mini-redis = { version = "0.4.1" }

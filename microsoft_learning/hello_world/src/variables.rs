@@ -1,4 +1,6 @@
 //This file is not used.
+// `#[allow(dead_code)]` is an attribute that disables the `dead_code` lint
+#[allow(dead_code)]
 fn variable_tests() {
     //println!("Hello, world!");
     let x = 5;

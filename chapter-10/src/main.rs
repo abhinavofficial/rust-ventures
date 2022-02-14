@@ -1,7 +1,7 @@
 mod generics;
 mod lifetimes;
 
-use ::generics::{Summary, Tweet};
+use chapter_10::{Summary, Tweet};
 use crate::generics::generics::{largest, Point};
 use crate::lifetimes::life_times::longest;
 
