@@ -11,3 +11,4 @@ edition = "2021"
 # the application can decide to opt into only the features it uses.
 tokio = { version = "1.16.1", features = ["full"] }
 mini-redis = { version = "0.4.1" }
+bytes = "1.1.0"
