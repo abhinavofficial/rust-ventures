@@ -38,6 +38,13 @@ Blanket implementations appear in the documentation for the trait in the “Impl
 ## Lifetimes
 Every reference in Rust has a lifetime, which is the scope for which that reference is valid. We must annotate lifetimes when the lifetimes of references could be related in a few different ways. Rust requires us to annotate the relationships using generic lifetime parameters to ensure the actual references used at runtime will definitely be valid.
 
+Rules of lifetime
+* Each parameter that is a reference gets its own lifetime parameter
+* If there is exactly one input lifetime parameter, then lifetime is assigned to all output lifetime parameters
+* If there are multiple input lifetime parameters, but one of them is &self or &mut self, the lifetime of self is assigned to all output lifetime parameters. This is generally applicable for methods.
+
+Static lifetime: The reference could live as long as the duration of the program. All string literal have a static lifetime because string literals are stored in the primary as binary.
+
 ## Documentation Strategy
 
 | Symbol    | 	Explanation            |
