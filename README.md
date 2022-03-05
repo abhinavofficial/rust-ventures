@@ -32,3 +32,6 @@ https://arrow.apache.org/community/
 https://github.com/apache/arrow-rs/contribute
 https://infra.apache.org/slack.html
 https://github.com/tokio-rs
+
+https://practice.rs/why-exercise.html and https://github.com/sunface/rust-by-practice
+https://github.com/rust-lang/rustlings
