@@ -10,5 +10,6 @@ members = [
     "chapter-19",
     "chapter-20",
     "microsoft_learning/hello_world",
-    "my-redis"
+    "my-redis",
+    "chat-service"
 ]
